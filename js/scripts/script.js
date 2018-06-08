@@ -26,6 +26,15 @@ $(document).ready(function(){
 		$('.content[data-id="' + id + '"]').addClass('isActive');
 	});
 
+	$('.content-openPopup').on('click', function(){
+		$('.popup').addClass('isActive');
+	});
+
+	$('.content-close').on('click', function(){
+		$('.popup').removeClass('isActive');
+	});
+
+
 
 
 
